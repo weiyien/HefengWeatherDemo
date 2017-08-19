@@ -4,7 +4,7 @@ import android.app.Application;
 
 public class AppContext extends Application {
 
-    public static final String weather_key="95f08e645b064463a08bd0d458b91718";//获取地址https://console.heweather.com/my/service
+    public static final String weather_key="yourkey";//获取地址https://console.heweather.com/my/service
     public static final String weather_url="https://free-api.heweather.com/v5/weather?";
 
 
@@ -25,5 +25,5 @@ public class AppContext extends Application {
     public void onCreate() {
         super.onCreate();
     }
-    
+
 }
